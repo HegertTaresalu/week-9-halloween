@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 .container{
     
@@ -15,8 +16,7 @@
     display: flex;
     justify-content: center;
     align-items:center;   
-    background-color: #5f2b93;
-    position: sticky;
+    background-color: #171615;
 
 }
 .nav{
@@ -27,15 +27,93 @@
     text-transform: uppercase;
     color: #f5CD08;
 }
+.nav:hover{
+    color:#EB6123 ;
+
+}   
+
+
+
+
 
 .current
 {
     color: #EB6123;
+}
+
+.current:hover
+{
+    color:#f5CD08 ;
 
 
 }
+
 .img-container{
-    background-image:url('../img/catering.jpg') ;
-    height: 150vh;
-    background-position:center ;
+    display: grid;
+}
+
+.img-container img{
+    display: block;
+
+
+}
+
+.heading{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #171615;
+}
+
+#heading-top-text{
+    text-align: center;
+
+
+}
+
+
+#heading-top-text h3{
+    color:#f5CD08;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.img:hover
+{
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+
+
+.img1
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.img2
+{   
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+
+}
+.img3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+
+}
+.fas{
+    color: #EB6123;
+
+
 }
